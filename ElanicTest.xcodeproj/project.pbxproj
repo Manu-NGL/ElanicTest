@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		321330BF1BE879020099458B /* ELDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 321330BE1BE879020099458B /* ELDataManager.m */; };
 		32A0B5901BE6FEFF009EFD24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A0B58F1BE6FEFF009EFD24 /* main.m */; };
 		32A0B5931BE6FEFF009EFD24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A0B5921BE6FEFF009EFD24 /* AppDelegate.m */; };
 		32A0B5961BE6FEFF009EFD24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A0B5951BE6FEFF009EFD24 /* ViewController.m */; };
@@ -14,9 +15,35 @@
 		32A0B59C1BE6FEFF009EFD24 /* ElanicTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32A0B59A1BE6FEFF009EFD24 /* ElanicTest.xcdatamodeld */; };
 		32A0B59E1BE6FEFF009EFD24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A0B59D1BE6FEFF009EFD24 /* Assets.xcassets */; };
 		32A0B5A11BE6FEFF009EFD24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A0B59F1BE6FEFF009EFD24 /* LaunchScreen.storyboard */; };
+		32DC4E421BE92BE3000A69E5 /* ELFood.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC4E371BE92BE3000A69E5 /* ELFood.m */; };
+		32DC4E431BE92BE3000A69E5 /* ELGym.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC4E391BE92BE3000A69E5 /* ELGym.m */; };
+		32DC4E441BE92BE3000A69E5 /* ELHospital.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC4E3B1BE92BE3000A69E5 /* ELHospital.m */; };
+		32DC4E451BE92BE3000A69E5 /* ELRestaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC4E3D1BE92BE3000A69E5 /* ELRestaurant.m */; };
+		32DC4E461BE92BE3000A69E5 /* ELSchool.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC4E3F1BE92BE3000A69E5 /* ELSchool.m */; };
+		32DC4E471BE92BE3000A69E5 /* ELSpa.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC4E411BE92BE3000A69E5 /* ELSpa.m */; };
+		32DC4E4A1BE93746000A69E5 /* Keypad_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 32DC4E481BE93746000A69E5 /* Keypad_icon.png */; };
+		32DC4E4B1BE93746000A69E5 /* Keypad_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32DC4E491BE93746000A69E5 /* Keypad_icon@2x.png */; };
+		32DC4E511BE93902000A69E5 /* ELCitiesListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC4E501BE93902000A69E5 /* ELCitiesListController.m */; };
+		32DC4E541BE93A9F000A69E5 /* ELCitiesListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC4E531BE93A9F000A69E5 /* ELCitiesListCell.m */; };
+		32DC4E5A1BE970CE000A69E5 /* ELCityInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC4E591BE970CE000A69E5 /* ELCityInfoViewController.m */; };
+		32DC4E5D1BE970F4000A69E5 /* ELCityMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC4E5C1BE970F4000A69E5 /* ELCityMapViewController.m */; };
+		32DC4E5F1BE977A1000A69E5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DC4E5E1BE977A1000A69E5 /* MapKit.framework */; };
+		32DC4E631BE97EEC000A69E5 /* Back_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 32DC4E611BE97EEC000A69E5 /* Back_arrow.png */; };
+		32DC4E641BE97EEC000A69E5 /* Back_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32DC4E621BE97EEC000A69E5 /* Back_arrow@2x.png */; };
+		32E874BD1BE7E8F600292453 /* ELCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E874BC1BE7E8F600292453 /* ELCity.m */; };
+		32ECB73B1BE823EA00E3FA82 /* ELItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ECB73A1BE823EA00E3FA82 /* ELItem.m */; };
+		32ECB73E1BE8251700E3FA82 /* ELAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ECB73D1BE8251700E3FA82 /* ELAPIManager.m */; };
+		32ECB7411BE8290400E3FA82 /* ELConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ECB7401BE8290400E3FA82 /* ELConstants.m */; };
+		32ECB7481BE8350C00E3FA82 /* LikeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 32ECB7451BE8350C00E3FA82 /* LikeIcon.png */; };
+		32ECB7491BE8350C00E3FA82 /* LikeIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32ECB7461BE8350C00E3FA82 /* LikeIcon@2x.png */; };
+		32ECB74A1BE8350C00E3FA82 /* LikeIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32ECB7471BE8350C00E3FA82 /* LikeIcon@3x.png */; };
+		32ECB7501BE83FB300E3FA82 /* ELListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ECB74F1BE83FB300E3FA82 /* ELListCell.m */; };
+		32ECB7521BE8407D00E3FA82 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ECB7511BE8407D00E3FA82 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		321330BD1BE879020099458B /* ELDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELDataManager.h; path = Helper/ELDataManager.h; sourceTree = "<group>"; };
+		321330BE1BE879020099458B /* ELDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELDataManager.m; path = Helper/ELDataManager.m; sourceTree = "<group>"; };
 		32A0B58B1BE6FEFF009EFD24 /* ElanicTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElanicTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A0B58F1BE6FEFF009EFD24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32A0B5911BE6FEFF009EFD24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +55,45 @@
 		32A0B59D1BE6FEFF009EFD24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32A0B5A01BE6FEFF009EFD24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32A0B5A21BE6FEFF009EFD24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32DC4E361BE92BE3000A69E5 /* ELFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELFood.h; path = Model/ELFood.h; sourceTree = "<group>"; };
+		32DC4E371BE92BE3000A69E5 /* ELFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELFood.m; path = Model/ELFood.m; sourceTree = "<group>"; };
+		32DC4E381BE92BE3000A69E5 /* ELGym.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELGym.h; path = Model/ELGym.h; sourceTree = "<group>"; };
+		32DC4E391BE92BE3000A69E5 /* ELGym.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELGym.m; path = Model/ELGym.m; sourceTree = "<group>"; };
+		32DC4E3A1BE92BE3000A69E5 /* ELHospital.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELHospital.h; path = Model/ELHospital.h; sourceTree = "<group>"; };
+		32DC4E3B1BE92BE3000A69E5 /* ELHospital.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELHospital.m; path = Model/ELHospital.m; sourceTree = "<group>"; };
+		32DC4E3C1BE92BE3000A69E5 /* ELRestaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELRestaurant.h; path = Model/ELRestaurant.h; sourceTree = "<group>"; };
+		32DC4E3D1BE92BE3000A69E5 /* ELRestaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELRestaurant.m; path = Model/ELRestaurant.m; sourceTree = "<group>"; };
+		32DC4E3E1BE92BE3000A69E5 /* ELSchool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELSchool.h; path = Model/ELSchool.h; sourceTree = "<group>"; };
+		32DC4E3F1BE92BE3000A69E5 /* ELSchool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELSchool.m; path = Model/ELSchool.m; sourceTree = "<group>"; };
+		32DC4E401BE92BE3000A69E5 /* ELSpa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELSpa.h; path = Model/ELSpa.h; sourceTree = "<group>"; };
+		32DC4E411BE92BE3000A69E5 /* ELSpa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELSpa.m; path = Model/ELSpa.m; sourceTree = "<group>"; };
+		32DC4E481BE93746000A69E5 /* Keypad_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Keypad_icon.png; path = Resources/Keypad_icon.png; sourceTree = "<group>"; };
+		32DC4E491BE93746000A69E5 /* Keypad_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Keypad_icon@2x.png"; path = "Resources/Keypad_icon@2x.png"; sourceTree = "<group>"; };
+		32DC4E4F1BE93902000A69E5 /* ELCitiesListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCitiesListController.h; path = Controller/ELCitiesListController.h; sourceTree = "<group>"; };
+		32DC4E501BE93902000A69E5 /* ELCitiesListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELCitiesListController.m; path = Controller/ELCitiesListController.m; sourceTree = "<group>"; };
+		32DC4E521BE93A9F000A69E5 /* ELCitiesListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCitiesListCell.h; path = View/ELCitiesListCell.h; sourceTree = "<group>"; };
+		32DC4E531BE93A9F000A69E5 /* ELCitiesListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELCitiesListCell.m; path = View/ELCitiesListCell.m; sourceTree = "<group>"; };
+		32DC4E581BE970CE000A69E5 /* ELCityInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCityInfoViewController.h; path = Controller/ELCityInfoViewController.h; sourceTree = "<group>"; };
+		32DC4E591BE970CE000A69E5 /* ELCityInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELCityInfoViewController.m; path = Controller/ELCityInfoViewController.m; sourceTree = "<group>"; };
+		32DC4E5B1BE970F4000A69E5 /* ELCityMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCityMapViewController.h; path = Controller/ELCityMapViewController.h; sourceTree = "<group>"; };
+		32DC4E5C1BE970F4000A69E5 /* ELCityMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELCityMapViewController.m; path = Controller/ELCityMapViewController.m; sourceTree = "<group>"; };
+		32DC4E5E1BE977A1000A69E5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		32DC4E611BE97EEC000A69E5 /* Back_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Back_arrow.png; path = Resources/Back_arrow.png; sourceTree = "<group>"; };
+		32DC4E621BE97EEC000A69E5 /* Back_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Back_arrow@2x.png"; path = "Resources/Back_arrow@2x.png"; sourceTree = "<group>"; };
+		32E874BB1BE7E8F600292453 /* ELCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCity.h; path = Model/ELCity.h; sourceTree = "<group>"; };
+		32E874BC1BE7E8F600292453 /* ELCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELCity.m; path = Model/ELCity.m; sourceTree = "<group>"; };
+		32ECB7391BE823EA00E3FA82 /* ELItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELItem.h; path = Model/ELItem.h; sourceTree = "<group>"; };
+		32ECB73A1BE823EA00E3FA82 /* ELItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELItem.m; path = Model/ELItem.m; sourceTree = "<group>"; };
+		32ECB73C1BE8251700E3FA82 /* ELAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELAPIManager.h; path = Helper/ELAPIManager.h; sourceTree = "<group>"; };
+		32ECB73D1BE8251700E3FA82 /* ELAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELAPIManager.m; path = Helper/ELAPIManager.m; sourceTree = "<group>"; };
+		32ECB73F1BE8290400E3FA82 /* ELConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELConstants.h; sourceTree = "<group>"; };
+		32ECB7401BE8290400E3FA82 /* ELConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELConstants.m; sourceTree = "<group>"; };
+		32ECB7451BE8350C00E3FA82 /* LikeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LikeIcon.png; path = Resources/LikeIcon.png; sourceTree = "<group>"; };
+		32ECB7461BE8350C00E3FA82 /* LikeIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LikeIcon@2x.png"; path = "Resources/LikeIcon@2x.png"; sourceTree = "<group>"; };
+		32ECB7471BE8350C00E3FA82 /* LikeIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LikeIcon@3x.png"; path = "Resources/LikeIcon@3x.png"; sourceTree = "<group>"; };
+		32ECB74E1BE83FB300E3FA82 /* ELListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELListCell.h; path = View/ELListCell.h; sourceTree = "<group>"; };
+		32ECB74F1BE83FB300E3FA82 /* ELListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELListCell.m; path = View/ELListCell.m; sourceTree = "<group>"; };
+		32ECB7511BE8407D00E3FA82 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +101,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32DC4E5F1BE977A1000A69E5 /* MapKit.framework in Frameworks */,
+				32ECB7521BE8407D00E3FA82 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,10 +128,16 @@
 		32A0B58D1BE6FEFF009EFD24 /* ElanicTest */ = {
 			isa = PBXGroup;
 			children = (
+				32ECB7421BE8341900E3FA82 /* Resources */,
+				32E874BE1BE7EBE700292453 /* Helper */,
+				32A0B5AC1BE70BC2009EFD24 /* Model */,
+				32A0B5AD1BE70BC8009EFD24 /* View */,
+				32A0B5AE1BE70BD1009EFD24 /* Controller */,
+				32DC4E601BE977BC000A69E5 /* Frameworks */,
 				32A0B5911BE6FEFF009EFD24 /* AppDelegate.h */,
 				32A0B5921BE6FEFF009EFD24 /* AppDelegate.m */,
-				32A0B5941BE6FEFF009EFD24 /* ViewController.h */,
-				32A0B5951BE6FEFF009EFD24 /* ViewController.m */,
+				32ECB73F1BE8290400E3FA82 /* ELConstants.h */,
+				32ECB7401BE8290400E3FA82 /* ELConstants.m */,
 				32A0B5971BE6FEFF009EFD24 /* Main.storyboard */,
 				32A0B59D1BE6FEFF009EFD24 /* Assets.xcassets */,
 				32A0B59F1BE6FEFF009EFD24 /* LaunchScreen.storyboard */,
@@ -80,6 +154,89 @@
 				32A0B58F1BE6FEFF009EFD24 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32A0B5AC1BE70BC2009EFD24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32DC4E361BE92BE3000A69E5 /* ELFood.h */,
+				32DC4E371BE92BE3000A69E5 /* ELFood.m */,
+				32DC4E381BE92BE3000A69E5 /* ELGym.h */,
+				32DC4E391BE92BE3000A69E5 /* ELGym.m */,
+				32DC4E3A1BE92BE3000A69E5 /* ELHospital.h */,
+				32DC4E3B1BE92BE3000A69E5 /* ELHospital.m */,
+				32DC4E3C1BE92BE3000A69E5 /* ELRestaurant.h */,
+				32DC4E3D1BE92BE3000A69E5 /* ELRestaurant.m */,
+				32DC4E3E1BE92BE3000A69E5 /* ELSchool.h */,
+				32DC4E3F1BE92BE3000A69E5 /* ELSchool.m */,
+				32DC4E401BE92BE3000A69E5 /* ELSpa.h */,
+				32DC4E411BE92BE3000A69E5 /* ELSpa.m */,
+				32E874BB1BE7E8F600292453 /* ELCity.h */,
+				32E874BC1BE7E8F600292453 /* ELCity.m */,
+				32ECB7391BE823EA00E3FA82 /* ELItem.h */,
+				32ECB73A1BE823EA00E3FA82 /* ELItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		32A0B5AD1BE70BC8009EFD24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32ECB74E1BE83FB300E3FA82 /* ELListCell.h */,
+				32ECB74F1BE83FB300E3FA82 /* ELListCell.m */,
+				32DC4E521BE93A9F000A69E5 /* ELCitiesListCell.h */,
+				32DC4E531BE93A9F000A69E5 /* ELCitiesListCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		32A0B5AE1BE70BD1009EFD24 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				32A0B5941BE6FEFF009EFD24 /* ViewController.h */,
+				32A0B5951BE6FEFF009EFD24 /* ViewController.m */,
+				32DC4E4F1BE93902000A69E5 /* ELCitiesListController.h */,
+				32DC4E501BE93902000A69E5 /* ELCitiesListController.m */,
+				32DC4E581BE970CE000A69E5 /* ELCityInfoViewController.h */,
+				32DC4E591BE970CE000A69E5 /* ELCityInfoViewController.m */,
+				32DC4E5B1BE970F4000A69E5 /* ELCityMapViewController.h */,
+				32DC4E5C1BE970F4000A69E5 /* ELCityMapViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		32DC4E601BE977BC000A69E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32DC4E5E1BE977A1000A69E5 /* MapKit.framework */,
+				32ECB7511BE8407D00E3FA82 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32E874BE1BE7EBE700292453 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				32ECB73C1BE8251700E3FA82 /* ELAPIManager.h */,
+				32ECB73D1BE8251700E3FA82 /* ELAPIManager.m */,
+				321330BD1BE879020099458B /* ELDataManager.h */,
+				321330BE1BE879020099458B /* ELDataManager.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		32ECB7421BE8341900E3FA82 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32DC4E611BE97EEC000A69E5 /* Back_arrow.png */,
+				32DC4E621BE97EEC000A69E5 /* Back_arrow@2x.png */,
+				32DC4E481BE93746000A69E5 /* Keypad_icon.png */,
+				32DC4E491BE93746000A69E5 /* Keypad_icon@2x.png */,
+				32ECB7451BE8350C00E3FA82 /* LikeIcon.png */,
+				32ECB7461BE8350C00E3FA82 /* LikeIcon@2x.png */,
+				32ECB7471BE8350C00E3FA82 /* LikeIcon@3x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +270,11 @@
 				TargetAttributes = {
 					32A0B58A1BE6FEFF009EFD24 = {
 						CreatedOnToolsVersion = 7.0;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -140,6 +302,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				32A0B5A11BE6FEFF009EFD24 /* LaunchScreen.storyboard in Resources */,
+				32DC4E641BE97EEC000A69E5 /* Back_arrow@2x.png in Resources */,
+				32ECB74A1BE8350C00E3FA82 /* LikeIcon@3x.png in Resources */,
+				32DC4E4A1BE93746000A69E5 /* Keypad_icon.png in Resources */,
+				32ECB7491BE8350C00E3FA82 /* LikeIcon@2x.png in Resources */,
+				32ECB7481BE8350C00E3FA82 /* LikeIcon.png in Resources */,
+				32DC4E631BE97EEC000A69E5 /* Back_arrow.png in Resources */,
+				32DC4E4B1BE93746000A69E5 /* Keypad_icon@2x.png in Resources */,
 				32A0B59E1BE6FEFF009EFD24 /* Assets.xcassets in Resources */,
 				32A0B5991BE6FEFF009EFD24 /* Main.storyboard in Resources */,
 			);
@@ -152,10 +321,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32DC4E5A1BE970CE000A69E5 /* ELCityInfoViewController.m in Sources */,
+				32DC4E441BE92BE3000A69E5 /* ELHospital.m in Sources */,
+				32DC4E431BE92BE3000A69E5 /* ELGym.m in Sources */,
+				32DC4E461BE92BE3000A69E5 /* ELSchool.m in Sources */,
+				321330BF1BE879020099458B /* ELDataManager.m in Sources */,
+				32ECB73E1BE8251700E3FA82 /* ELAPIManager.m in Sources */,
+				32E874BD1BE7E8F600292453 /* ELCity.m in Sources */,
+				32DC4E5D1BE970F4000A69E5 /* ELCityMapViewController.m in Sources */,
+				32ECB7501BE83FB300E3FA82 /* ELListCell.m in Sources */,
+				32DC4E511BE93902000A69E5 /* ELCitiesListController.m in Sources */,
+				32DC4E471BE92BE3000A69E5 /* ELSpa.m in Sources */,
 				32A0B5961BE6FEFF009EFD24 /* ViewController.m in Sources */,
 				32A0B5931BE6FEFF009EFD24 /* AppDelegate.m in Sources */,
+				32DC4E541BE93A9F000A69E5 /* ELCitiesListCell.m in Sources */,
+				32ECB73B1BE823EA00E3FA82 /* ELItem.m in Sources */,
 				32A0B5901BE6FEFF009EFD24 /* main.m in Sources */,
+				32ECB7411BE8290400E3FA82 /* ELConstants.m in Sources */,
 				32A0B59C1BE6FEFF009EFD24 /* ElanicTest.xcdatamodeld in Sources */,
+				32DC4E421BE92BE3000A69E5 /* ELFood.m in Sources */,
+				32DC4E451BE92BE3000A69E5 /* ELRestaurant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ElanicTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elanic.ElanicTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -277,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ElanicTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elanic.ElanicTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +489,7 @@
 				32A0B5A71BE6FEFF009EFD24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
